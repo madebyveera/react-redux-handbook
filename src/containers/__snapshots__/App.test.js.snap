@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`My Connected React-Redux Component renders learn react link 1`] = `
+Array [
+  <header>
+    <nav
+      className="navbar navbar-expand-lg navbar-light bg-light"
+    >
+      <a
+        className="navbar-brand"
+        href="#/"
+      >
+        <label>
+          Todo
+        </label>
+      </a>
+      <button
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        className="navbar-toggler"
+        data-target="#navbarSupportedContent"
+        data-toggle="collapse"
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+    </nav>
+  </header>,
+  <main>
+    <section>
+      <div
+        className="container-fluid"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="offset-3 col-6"
+          >
+            <div
+              className="container"
+            >
+              <form>
+                <div
+                  className="form-group m-4"
+                >
+                  <div
+                    className="input-group"
+                  >
+                    <input
+                      className="form-control"
+                      onChange={[Function]}
+                      placeholder="Add Todo"
+                      value="Use Redux"
+                    />
+                    <div
+                      className="input-group-append"
+                    >
+                      <button
+                        className="btn btn-primary"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        Add Todo
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <table
+              className="table"
+            >
+              <thead>
+                <tr>
+                  <th>
+                    #
+                  </th>
+                  <th>
+                    Entity
+                  </th>
+                </tr>
+              </thead>
+              <tbody />
+            </table>
+            <div
+              className="d-flex justify-content-end"
+            >
+              <div
+                className="btn-group"
+              >
+                <button
+                  className="btn btn-primary"
+                  disabled={true}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "marginLeft": "4px",
+                    }
+                  }
+                  type="button"
+                >
+                  All
+                </button>
+                <button
+                  className="btn btn-warning"
+                  disabled={false}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "marginLeft": "4px",
+                    }
+                  }
+                  type="button"
+                >
+                  Active
+                </button>
+                <button
+                  className="btn btn-success"
+                  disabled={false}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "marginLeft": "4px",
+                    }
+                  }
+                  type="button"
+                >
+                  Completed
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>,
+]
+`;

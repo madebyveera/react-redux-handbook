@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`My Connected React-Redux Component should render with given state from Redux store 1`] = `
+<div
+  className="container"
+>
+  <form>
+    <div
+      className="form-group m-4"
+    >
+      <div
+        className="input-group"
+      >
+        <input
+          className="form-control"
+          onChange={[Function]}
+          placeholder="Add Todo"
+          value="Use Redux"
+        />
+        <div
+          className="input-group-append"
+        >
+          <button
+            className="btn btn-primary"
+            onClick={[Function]}
+            type="button"
+          >
+            Add Todo
+          </button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
