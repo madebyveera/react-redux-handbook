@@ -4,7 +4,7 @@ import renderer from 'react-test-renderer';
 import App from "./App";
 import store from "./../store/configureStore";
 
-describe('My Connected React-Redux Component', () => {
+describe('App Instance', () => {
   let component;
   beforeEach(() => {
     component = renderer.create(
@@ -14,7 +14,7 @@ describe('My Connected React-Redux Component', () => {
     );
   });
 
-  it("renders learn react link", () => {
+  it("Renders Application", () => {
     expect(component.toJSON()).toMatchSnapshot();
   });
 });

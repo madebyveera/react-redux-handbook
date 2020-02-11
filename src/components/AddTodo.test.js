@@ -5,7 +5,7 @@ import configureStore from "redux-mock-store";
 import { addTodo } from "./../store/actions";
 import AddTodo from "./AddTodo";
 const mockStore = configureStore([]);
-describe("My Connected React-Redux Component", () => {
+describe("AddTodo Component", () => {
   let store;
   let component;
   beforeEach(() => {
@@ -19,11 +19,11 @@ describe("My Connected React-Redux Component", () => {
       </Provider>
     );
   });
-  it("should render with given state from Redux store", () => {
+  it("AddTodo Component Snapshot", () => {
     expect(component.toJSON()).toMatchSnapshot();
   });
 
-  it("should dispatch an action on button click", () => {
+  it("AddTodo Button Click Scenario", () => {
     renderer.act(() => {
       component.root.findByType("button").props.onClick();
     });
